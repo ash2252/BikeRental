@@ -1,52 +1,29 @@
-# Project Name
-> Outline a brief description of your project.
+# Bike Rentals Service
+
+Project is to understand the demand for shared bikes among the people after this ongoing quarantine situation ends across the nation due to Covid-19. 
+
+Will try to understand the factors affecting the demand for these shared bikes in the American market.
+* Which variables are significant in predicting the demand for shared bikes.
+* How well those variables describe the bike demands
+
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+* [Business Goal]
+* [Conclusions]
 
-<!-- You can include any other section that is pertinent to your problem -->
 
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+## Business Goal
+- Model the demand for shared bikes with the available independent variables.
+  It will be used by the management to understand how exactly the demands vary with different features
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Temperature has highest coefficient of .5026 . This means if temperature increases by one unit then Increase in rental will be .5026
+- There are negative coefficients which suggest that if independant variable increases then dependant variable will decreases
+- During Summer Season , Bike Rentals are more in demand
+- Spring season has negative coefficients and negatively correlated to bike rentals. So we can give some offers there to increase the demand
+- Now seeing to weathersit variable, we have got negative coefficients for Mist +cloudy and Lights now weather
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
-
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
